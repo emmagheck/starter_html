@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Pets</title>
 </head>
 <body>
-    <a href = "">Skip to Main Content</a>
+    <a href = "#main">Skip to Main Content</a>
     <header>
         <nav>
             <ul>
+                <li><a class="current" href = index.html>Pets</a></li>
                 <li><a href = travel.html>Travel</a></li>
                 <li><a href = recipes.html>Recipes</a></li>
             </ul>
@@ -18,28 +20,39 @@
     </header>
 
 
-    <main>
+    <main id="main">
        <br><h1>Pets</h1>
         <div>
 
             <h2>Winston</h2>
-            <img src="images/winston_sleeping.jpeg" width = "400" alt="Kitten sleeping on the arm of a chair">
+            <img src="images/winston_sleeping.jpeg" width = "300" alt="Kitten sleeping on the arm of a chair">
 
             <p>Winston is a 1.5 year old kitten. He was adopted off the street at 2 weeks old and has lived with his new mom ever since. His favorite activities are naps, scratching furniture, and meowing at the birds outside the window.</p>
             <br><h3>Photo Gallery</h3>
-            <img src="images/winston_blanket.jpeg" width = "200" alt="A cat sleeping on a tan and white leopard print blanket">
-            <img src="images/winston_on_furniture.jpeg" width = "200" alt="A brown and black striped cat laying on top of a dresser">
-            <img src="images/winston_leaves.jpeg" width = "300" alt="A 5 month old kitten standing outside in a pile of fall leaves">
-
+            <div class="flex-container">
+                <img class="item2" src="images/winston_blanket.jpeg" width = "200" alt="A cat sleeping on a tan and white leopard print blanket">
+                <img class="item3" src="images/winston_on_furniture.jpeg" width = "200" alt="A brown and black striped cat laying on top of a dresser">
+                <img class="item4" src="images/winston_leaves.jpeg" width = "200" alt="A 5 month old kitten standing outside in a pile of fall leaves">
+            </div>
             <br><br><h2>Georgia</h2>
             <img src="images/georgia_balcony.jpeg" width="400" alt="A 2 year old miniature brown labradoodle sitting in a chair outside on the balcony">
 
             <p>Georgia is a 3 year old mini chocolate labradoodle. Her favorite treats are pig ears and milk bones, her favorite activity is tug of war, and her favorite toy is Lambchop.</p>
             <br><h3>Photo Gallery</h3>
-            <img src="images/georgia_sitting.jpeg" width="200" alt="Georgia, a mini labradoodle, sitting on the floor of the living room">
-            <img src="images/georgia_on_walk.jpeg" width="200" alt="A brown mini labradoodle and a yellow goldendoodle being walked on their leashes">
-            <img src="images/georgia_in_chair.jpeg" width="200" alt="A brown mini labradoodle laying in a chair">
-
+            <div class="grid">
+                <div class="item5">
+                     <img src="images/georgia_sitting.jpeg"  alt="Georgia, a mini labradoodle, sitting on the floor of the living room">
+                </div>
+                <div class="item6">
+                    <img src="images/georgia_on_walk.jpeg"  alt="A brown mini labradoodle and a yellow goldendoodle being walked on their leashes">
+                </div>
+                <div class="item7">
+                    <img src="images/georgia_in_chair.jpeg" alt="A brown mini labradoodle laying in a chair">
+                </div>
+                <div class="item8">
+                    <img src="images/georgia_in_chair.jpeg" alt="A brown mini labradoodle laying in a chair">
+                </div>
+            </div>
             <br><br><h2>Paisley</h2>
             <img src="images/paisley_3.jpeg" width="400" alt="A 3 year old blonde standard goldendoodle standing outside in the front yard, wearing a blue harness">
 
