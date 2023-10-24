@@ -19,9 +19,15 @@ body > a:first-child:focus {
     top: -5px;
 }
 
+nav {
+    background-color: aquamarine;
+}
+
 .current {
-    color: darkcyan;
+    color: purple;
     text-decoration: underline;
+    background-color: lightcyan;
+    font-weight: bold;
 }
 
 h1 {
@@ -35,13 +41,16 @@ h2, h3 {
     font-family:'Courier New', Courier, monospace;
     color: black;
     margin-left: 25px;
+    font-weight: bold;
+    text-align: center;
+    /* background: blanchedalmond; */
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 25px;
+    /* line-height: 25px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 25px; */
     text-align: center;
     font-size: medium;
 }
@@ -50,7 +59,8 @@ img {
     display:block;
     border: solid 5px purple;
     padding: 10px;
-    margin: 20px;
+    margin: 0 auto;
+    max-width: 100%;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
